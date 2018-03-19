@@ -1,0 +1,26 @@
+{
+  "name": "watch-native",
+  "version": "1.0.0",
+  "description": "Description pendindg",
+  "main": "watch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e1016/watch-native.git"
+  },
+  "keywords": [
+    "watch",
+    "js",
+    "watchjs",
+    "watch-native",
+    "reactive-js"
+  ],
+  "author": "e1016",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e1016/watch-native/issues"
+  },
+  "homepage": "https://github.com/e1016/watch-native#readme"
+}
