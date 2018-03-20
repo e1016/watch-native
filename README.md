@@ -4,6 +4,11 @@
 
 Enable watch reactive feature with an extreamly light library, only **355 bytes**
 
+	this feature was implemented for mozilla on Firefox 58 beta
+	was deprecated and removes
+	"using watchpoints has a serious negative impact on performance" - Mozilla
+	Watch Native use getters and setters like Vue for avoid this problem
+
 ## Link
 
 ```html
@@ -13,18 +18,18 @@ Enable watch reactive feature with an extreamly light library, only **355 bytes*
 ```js
 // define any object
 var person = {
-	name: 'Eliseo',
-	age: 20
+  name: 'Eliseo',
+  age: 20
 }
 
 // object.watch(node, callback())
 person.watch('name', function() {
-	// do something
+  // do something
 })
 
 // the callback recives two paramenters
 // new value and old value in this order
 person.watch('name', function (newVal, oldVal) {
-	console.log('name was changed from ' + oldVal + ' to ' + newVal)
+  console.log('name was changed from ' + oldVal + ' to ' + newVal)
 })
 ```
