@@ -2,10 +2,11 @@
 
 1.0
 
-Enable watch reactive feature with an extreamly light library, only **355 bytes**
+Enable watch reactive feature with an extreamly light library, only **375 bytes**
 
-	this feature was implemented for mozilla on Firefox 58 beta
-	was deprecated and removes
+	this feature was implemented by mozilla on Firefox 58 beta, after
+	was deprecated and removes.
+	
 	"using watchpoints has a serious negative impact on performance" - Mozilla
 	Watch Native use getters and setters like Vue for avoid this problem
 
