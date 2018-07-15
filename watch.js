@@ -6,11 +6,14 @@
 // + - - - - - - - - - - - - +
 
 Object.prototype.watch = function (nod, cllbk) {
-   var __old = this[nod];
+   var __old = this[nod]
    Object.defineProperty(this, nod, {
+      get: function () {
+         return ___old
+      },
       set: function (__new) {
-         cllbk(__new, __old || undefined);
-         __old = __new;
+         cllbk(__new, __old || undefined)
+         __old = __new
       }
    });
 }
